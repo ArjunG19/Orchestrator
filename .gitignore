@@ -1,0 +1,86 @@
+# ----------------------
+# OS / System files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# Python (langgraph-service)
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# ----------------------
+# Node.js (orchestrator-api)
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Lock files (optional — see note below)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+coverage/
+
+# ----------------------
+# TypeScript
+# ----------------------
+*.tsbuildinfo
+
+# ----------------------
+# IDEs / Editors
+# ----------------------
+.vscode/
+.idea/
+.kiro/
+*.swp
+*.swo
+docs/
+
+# ----------------------
+# Misc
+# ----------------------
+tmp/
+temp/
+.cache/
+
+# ----------------------
+# Frontend (if expanded later)
+# ----------------------
+.next/
+out/
+build/
+
+README.md
